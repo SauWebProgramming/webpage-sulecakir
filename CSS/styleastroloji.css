@@ -1,0 +1,105 @@
+.navbar-brand {
+    font-family: 'Pushster', cursive;
+  
+}
+.nav-link {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+nav{
+    box-shadow: 0 0 30px rgb(230, 75, 4);
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.carousel-inner{
+    width: auto-size;
+    height: auto-size;
+    margin: auto-size;
+    padding: 100px;
+    font-family: 'Pushster', cursive ;
+    box-shadow: 0 0 30px rgb(197, 113, 98);
+}
+
+#accordion {
+    width: auto;
+    height: auto-size;
+    margin: auto-size;
+    padding: 100px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-shadow: 0 0 10px rgb(29, 72, 107);
+
+}
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+    
+	
+	}
+
+	
+    h3 {
+        
+        font-family: 'Acme', sans-serif;
+        color: #212121;
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 150px;
+        margin-top: 50px;
+        
+      }
+
+	
+.sosyalbutonlar{
+	margin-top: 20px;
+	display: inline-block;
+	position: relative;
+	left: 10px;
+  	
+	
+	}
+	
+.sosyalbutonlar a  {
+  background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+  }
+    
+.sosyalbutonlar a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+.sosyalbutonlar .instagram:hover {
+      background-color: #3b5998;
+      transform: rotate(360deg);
+      border-radius: 50%;
+
+
+}
+
+  .sosyalbutonlar .twitter:hover   {
+      background-color: #00aced;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
